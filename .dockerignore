@@ -1,5 +1,12 @@
+# Git
+.git
+.gitignore
+
 # macOS
 .DS_Store
+
+# logs folder
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
