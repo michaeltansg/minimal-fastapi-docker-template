@@ -20,6 +20,10 @@ The project is being watched for changes and any saved modifications will cause 
 
 ### Building and distribution
 Firstly, modify Makefile with the appropriate image name.
+```
+docker login
+docker buildx create --use
+```
 To create an image for distribution, modify the `Dockerfile` (if required) and then execute: `make push`
 
 Other examples of use of Makefile:
